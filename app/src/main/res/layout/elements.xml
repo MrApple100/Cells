@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </Button>
+    <EditText
+        android:id="@+id/ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Впиши сюда свое Имя!"
+        ></EditText>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Я ыыыыыыы">
+    </CheckBox>
+    <CheckedTextView
+        android:text="wertwe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </CheckedTextView>
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/RB1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+>
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/RB2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></RadioButton>
+    </RadioGroup>
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Switch>
+
+</LinearLayout>
